@@ -3,6 +3,7 @@ import Particles from 'react-tsparticles';
 import { Link, animateScroll as scroll } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import Zoom from 'react-reveal/Zoom';
 import './Home.css';
 
 const Home = () => {
@@ -248,8 +249,8 @@ const Home = () => {
 
 
       <div className='home-title__container'>
-        <h1>Bring your Projects and Ideas to the Internet</h1>
-        <h4>- Web Design and Development -</h4>
+        <h1><Zoom>Bring your Projects and Ideas to the Internet</Zoom></h1>
+        <h4><Zoom>- Web Design and Development -</Zoom></h4>
       </div>
 
       <Link
