@@ -1,0 +1,47 @@
+.home__container{
+    position: realtive;
+    background-color: #2c2c2c;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.home-title__container{
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding: 15px 80px;
+}
+
+.home-title__container h1{
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+.home-title__container h4{
+    margin-top: 22px;
+    font-size: 3vw;
+}
+
+@media(max-width: 676px){
+
+    .home-title__container{
+        padding: 15px;
+    }
+
+    .home-title__container h1{
+        font-size: 7vw;
+    }
+    .home-title__container h4{
+        font-size: 5vw;
+    }
+}
+
+@media(max-width: 445px){
+    .home-title__container h1{
+        font-size: 8vw;
+    }
+    .home-title__container h4{
+        font-size: 6vw;
+    }
+}
