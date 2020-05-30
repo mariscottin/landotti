@@ -8,7 +8,7 @@ import './MainNavbar.css';
 const MainNavbar = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="md" fixed="top">
-            <Navbar.Brand href="#home">Landotti Dev.</Navbar.Brand>
+            <Navbar.Brand style={{fontFamily: 'Orbitron, sans-serif'}}>Landotti <span style={{color: '#ffD300'}}>Dev</span>.</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">

@@ -14,7 +14,11 @@ code {
 
 .section-title{
   text-align: center;
+  font-family: 'Orbitron', sans-serif;
   font-size: 5vw;
   color: white;
-  padding-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  color: rgb(42, 42, 42)
 }
+
