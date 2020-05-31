@@ -22,7 +22,7 @@ const Team = () => {
                                 <Card.Body style={{ backgroundColor: '#343a40', color: '#ffffff' }}>
                                     <Card.Title>Nicolás Mariscotti</Card.Title>
                                     <Card.Text>
-                                        CEO and Founder of Landotti Dev.
+                                        CEO and Founder at Landotti Dev.
                                     <br />
                                         Principal Developer.
                                     <br />

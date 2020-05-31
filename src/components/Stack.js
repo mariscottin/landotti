@@ -23,44 +23,44 @@ const Stack = () => {
                 <div className="container">
                     <div className="row">
                         <Zoom>
-                            <div className="col-lg-3">
+                            <div className="col-md-3">
                                 <img src={HTML} alt="HTML5-Logo" className="stack-logo" title="HTML5" />
                             </div>
                         </Zoom>
                         <Zoom>
-                            <div className="col-lg-3">
+                            <div className="col-md-3">
                                 <img src={CSS} alt="CSS3-Logo" className="stack-logo" title="CSS3" />
                             </div>
                         </Zoom>
                         <Zoom>
-                            <div className="col-lg-3">
+                            <div className="col-md-3">
                                 <img src={JS} alt="Javascript-Logo" className="stack-logo" title="Javascript" />
                             </div>
                         </Zoom>
                         <Zoom>
-                            <div className="col-lg-3">
+                            <div className="col-md-3">
                                 <img src={JQUERY} alt="JQuery-Logo" className="stack-logo" title="JQuery" />
                             </div>
                         </Zoom>
                     </div>
                     <div className="row">
                         <Zoom>
-                            <div className="col-lg-3">
+                            <div className="col-md-3">
                                 <img src={REACT} alt="React-Logo" className="stack-logo" title="React js" />
                             </div>
                         </Zoom>
                         <Zoom>
-                            <div className="col-lg-3">
+                            <div className="col-md-3">
                                 <img src={NODE} alt="Nodejs-Logo" className="stack-logo" title="Node js" />
                             </div>
                         </Zoom>
                         <Zoom>
-                            <div className="col-lg-3">
+                            <div className="col-md-3">
                                 <img src={SQL} alt="SQL-Logo" className="stack-logo" title="SQL" />
                             </div>
                         </Zoom>
                         <Zoom>
-                            <div className="col-lg-3">
+                            <div className="col-md-3">
                                 <img src={MONGO} alt="MongoDb-Logo" className="stack-logo" title="MongoDb" />
                             </div>
                         </Zoom>
