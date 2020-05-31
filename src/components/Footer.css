@@ -1,0 +1,13 @@
+.footer{
+    color: #ffffff;
+    height: 20vh;
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .div{
+    font-family: 'Orbitron, sans-serif' !important;
+}

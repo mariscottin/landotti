@@ -5,7 +5,6 @@ import Zoom from 'react-reveal/Zoom';
 import HTML from '../assets/img/html-logo.png';
 import CSS from '../assets/img/css-logo.png';
 import REACT from '../assets/img/react-logo.png';
-import WORDPRESS from '../assets/img/wordpress-logo.png';
 import JS from '../assets/img/js-logo.png';
 import JQUERY from '../assets/img/jquery-logo.png';
 import NODE from '../assets/img/node-logo.png';

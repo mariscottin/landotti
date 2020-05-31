@@ -7,6 +7,7 @@ import Team from './components/Team';
 import Stack from './components/Stack';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
       <Stack />
       <Portfolio />
       <Contact />
+      <Footer />
     </div>
   );
 }
