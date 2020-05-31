@@ -1,6 +1,6 @@
 .team__container{
-    height: 100vh;
     background-color: rgba(49, 49, 49, 0.8);
+    padding-bottom: 50px;
 }
 
 .team__container .section-title{
@@ -10,4 +10,8 @@
 .team__container .card{
     border: none;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.team__container .col-lg-6{
+    margin-top: 20px;
 }

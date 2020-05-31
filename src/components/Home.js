@@ -1,6 +1,6 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import Zoom from 'react-reveal/Zoom';
@@ -8,7 +8,7 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <div className='home__container' id="homeSection">
+    <div className='home__container section' id="homeSection">
       <Particles
         params={{
           "background": {
@@ -244,7 +244,7 @@ const Home = () => {
           }
         }}
         width="100%"
-        height="100vh"
+        height="110vh"
       />
 
 
