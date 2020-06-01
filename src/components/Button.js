@@ -4,7 +4,7 @@ import './Button.css';
 
 const Button = props => {
     return(
-        <button className="custom-button">
+        <button className="custom-button" type={props.type}>
             {props.children}
         </button>
     )
