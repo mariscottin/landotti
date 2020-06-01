@@ -1,0 +1,65 @@
+.contact__container{
+    background-color: rgba(255, 213, 0, 0.8);
+    padding-bottom: 40px;
+}
+
+.contact__container .container{
+    background-color: #545658;
+    border-radius: 8px;
+    width: 60%;
+    padding: 20px 40px;
+}
+.contact__container .form-group{
+    margin: auto;
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 10px;
+}
+
+.contact__container textarea{
+    resize: none;
+    height: 200px;
+}
+
+.contact__container .submit-form{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contact-loading-spinner__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.success-message-sent{
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.happy-icon__container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.success-message-sent h2, .success-message-sent h3{
+    margin-bottom: 20px;
+}
+
+.send-another-message__container{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.send-another-message__container p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media(max-width: 676px) {
+    .contact__container .container{
+        width: 90%;
+    }
+}

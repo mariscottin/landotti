@@ -3,7 +3,31 @@
   }
   
 .active{
-    color: #ffD300 !important;
+    color: white !important;
     font-weight: bolder;
-    opacity: 0.8;
+}
+/* 
+.bg-dark{
+  background-color: transparent !important;
+
+} */
+.navbar-expand-md .navbar-collapse{
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.navbar-brand{
+  width: 8%;
+  margin-right: 0 !important;
+  text-align: right;
+}
+
+.navbar-brand img{
+  width: 100%;
+}
+
+@media(max-width: 991px){
+  .navbar-brand{
+    width: 25%;
+  }
 }

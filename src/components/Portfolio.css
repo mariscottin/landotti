@@ -1,0 +1,7 @@
+.portfolio__container{
+    background-color: rgba(49, 49, 49, 0.8);
+}
+
+.portfolio__container .section-title{
+    color: #ffD300;
+}

@@ -1,24 +1,27 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { Link, animateScroll as scroll } from "react-scroll";
+import Logo from '../assets/img/logo-1.png';
+import { Link } from "react-scroll";
 
 import './MainNavbar.css';
 
 const MainNavbar = () => {
     return (
-        <Navbar bg="dark" variant="dark" expand="md" fixed="top">
-            <Navbar.Brand style={{fontFamily: 'Orbitron, sans-serif'}}>Landotti <span style={{color: '#ffD300'}}>Dev</span>.</Navbar.Brand>
+        <Navbar variant="dark" expand="md" fixed="top">
+            {/* <Navbar.Brand style={{fontFamily: 'Orbitron, sans-serif', fontSize: '28px'}}>{'<'}Land<span style={{color: '#ffD300'}}>otti</span>{'/>'}</Navbar.Brand> */}
+            <Navbar.Brand><img src={Logo} alt="Rhinotech-Logo"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav>
                     <Link
                         activeClass="active"
                         to="homeSection"
                         spy={true}
                         smooth={true}
                         duration={700}
-                        className="nav-link">
+                        className="nav-link"
+                       >
                             Home
                     </Link>
                     <Link
@@ -27,12 +30,40 @@ const MainNavbar = () => {
                         spy={true}
                         smooth={true}
                         duration={700}
-                        className="nav-link">
+                        className="nav-link"
+                       >
                             Team
                     </Link>
-                    <Nav.Link href="#link">Stack</Nav.Link>
-                    <Nav.Link href="#link">Portfolio</Nav.Link>
-                    <Nav.Link href="#link">Contact Us</Nav.Link>
+                    <Link
+                        activeClass="active"
+                        to="stackSection"
+                        spy={true}
+                        smooth={true}
+                        duration={700}
+                        className="nav-link"
+                       >
+                            Stack
+                    </Link>
+                    <Link
+                        activeClass="active"
+                        to="portfolioSection"
+                        spy={true}
+                        smooth={true}
+                        duration={700}
+                        className="nav-link"
+                       >
+                            Portfolio
+                    </Link>
+                    <Link
+                        activeClass="active"
+                        to="contactSection"
+                        spy={true}
+                        smooth={true}
+                        duration={700}
+                        className="nav-link"
+                       >
+                            Contact Us
+                    </Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

@@ -1,0 +1,31 @@
+.stack__container{
+    background-color: rgba(255, 213, 0, 0.8);
+    min-height: 80vh;
+    padding-bottom: 40px;
+}
+
+.stack__container .col-md-3{
+    margin: auto;
+    text-align: center;
+}
+
+.stack-logo{
+    width: 60%;
+}
+
+.stack__container .row{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media(max-width: 767px){
+    .stack-logo{
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    .stack__container .row{
+        margin: 0;
+        padding: 0;
+    }
+}
