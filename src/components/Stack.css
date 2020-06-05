@@ -1,16 +1,27 @@
 .stack__container{
-    background-color: rgba(255, 213, 0, 0.8);
     min-height: 80vh;
     padding-bottom: 40px;
+    position: relative;
 }
 
-.stack__container .col-md-3{
+.particles{
+    background-color: #3d3d3d;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.stack__container .section-title{
+    color: #fff;
+}
+
+.stack__container .col-lg-3{
     margin: auto;
     text-align: center;
 }
 
 .stack-logo{
-    width: 60%;
+    width: 45%;
 }
 
 .stack__container .row{
@@ -18,7 +29,13 @@
     padding-bottom: 20px;
 }
 
-@media(max-width: 767px){
+@media(max-width: 1024px){
+    .stack__container {
+        min-height: 40vh;
+    }
+}
+
+@media(max-width: 991px){
     .stack-logo{
         width: 30%;
         margin-bottom: 20px;

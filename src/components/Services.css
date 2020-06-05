@@ -1,0 +1,131 @@
+.services__container{
+    text-align: center;
+    position: relative;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #c5c5c5 74%);
+    min-height: 95vh
+}
+
+
+.services-cards__container{
+    width: 90%;
+    margin: auto;
+
+}
+.services__container .row{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.services__container .col-lg-3{
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.services__container .card{
+    padding-top: 15px;
+    width: 15rem !important;
+    height: 220px;
+    border-radius: 8px;
+    border: none !important;
+    cursor: pointer;
+    background: transparent;
+    margin: auto;
+}
+
+.services__container .card-img-top{
+    width: 120px;
+    height: 130px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.services__container .card-title{
+    font-size: 22px;
+}
+
+.middle{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-front, .card-back{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+}
+
+.card-front{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.card-back{
+    transform: perspective(600px) rotateY(180deg);
+}
+.card-front__content {
+    background-image: url("../assets/img/card-background.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 8px;
+    padding-top: 2rem;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.card-body{
+    padding: 25px 10px 0 10px;
+}
+
+.card-back__content{
+    background: #cd3e27;
+    color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+
+.card-back__content h2{
+    margin-bottom: 3px;
+}
+
+
+.card-back__content p{
+    margin: 0;
+    font-size: 14px;
+}
+
+.card:hover > .card-front{
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.card:hover > .card-back{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+@media(max-width: 1024px){
+    .services__container {
+        min-height: 40vh;
+    }
+    .services-cards__container{
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media(max-width: 991px) {
+    .services-cards__container{
+        padding-top: 0;
+    }
+    .services__container .card{
+        width: 14rem !important;
+        margin-bottom: 50px !important;
+    }
+}

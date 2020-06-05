@@ -8,6 +8,9 @@
     align-items: center;
 }
 
+.footer .brand {
+    width: 220px;
+}
 .footer .div{
     font-family: 'Orbitron, sans-serif' !important;
 }

@@ -3,22 +3,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import MainNavbar from './components/MainNavbar';
 import Home from './components/Home';
-import Team from './components/Team';
+import Services from './components/Services';
 import Stack from './components/Stack';
-import Portfolio from './components/Portfolio';
+import Method from './components/Method';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <MainNavbar />
       <Home />
-      <Team />
+      <Services />
       <Stack />
-      <Portfolio />
+      <Method />
       <Contact />
       <Footer />
     </div>

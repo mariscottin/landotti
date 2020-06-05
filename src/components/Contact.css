@@ -1,10 +1,16 @@
 .contact__container{
-    background-color: rgba(255, 213, 0, 0.8);
+    background-image: url("../assets/img/background-4.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding-bottom: 40px;
 }
 
+.contact__container .section-title{
+    color: #fff;
+}
 .contact__container .container{
-    background-color: #545658;
     border-radius: 8px;
     width: 60%;
     padding: 20px 40px;
@@ -44,8 +50,13 @@
     margin-bottom: 20px;
 }
 
-.success-message-sent h2, .success-message-sent h3{
+.success-message-sent h2, .success-message-sent h3, .success-message-sent h4{
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.success-message-sent .brand img{
+    width: 200px;
 }
 
 .send-another-message__container{
@@ -56,6 +67,12 @@
 .send-another-message__container p:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+
+@media(max-width: 1024px){
+    .contact__container {
+        min-height: 40vh;
+    }
 }
 
 @media(max-width: 676px) {

@@ -14,7 +14,7 @@ const Home = () => {
       </div>
 
       <Link
-        to="teamSection"
+        to="servicesSection"
         spy={true}
         smooth={true}
         duration={700} 

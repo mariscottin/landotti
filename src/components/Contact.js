@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import emailjs from 'emailjs-com';
 import ReactLoading from 'react-loading';
+import Brand from '../assets/img/rhino-brand.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSmileBeam } from '@fortawesome/free-solid-svg-icons'
 
@@ -68,7 +69,7 @@ const Contact = () => {
                             </div>
                             <h2>Message Sent Successfully!</h2>
                             <h3>Thanks! We will reply as soon as possible!</h3>
-                            <h4><span style={{fontFamily: 'Orbitron, sans-serif', fontSize: '28px'}}>{'<'}Land<span style={{color: '#ffD300'}}>otti</span>{'/>'}</span> Team</h4>
+                            <h4><span className="brand"><img src={Brand} alt="Rhinotech" /></span> team</h4>
                             <div className="send-another-message__container">
                                 <p onClick={()=> setMessageSent(false)}>Send another message</p>
                             </div>

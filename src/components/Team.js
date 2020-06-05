@@ -10,13 +10,14 @@ import './Team.css';
 const Team = () => {
     return (
         <div className="team__container section" id="teamSection">
-                <h1 className="section-title">
-                    <Fade>Team Members</Fade>
-                </h1>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <Zoom>
+            
+            <h1 className="section-title">
+                <Fade>Team Members</Fade>
+            </h1>
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-6">
+                        <Zoom>
                             <Card style={{ width: '18rem', margin: 'auto' }}>
                                 <Card.Img variant="top" src={Foto1} height="300px" />
                                 <Card.Body style={{ backgroundColor: '#343a40', color: '#ffffff' }}>
@@ -30,9 +31,9 @@ const Team = () => {
                                 </Card.Text>
                                 </Card.Body>
                             </Card>
-                            </Zoom>
-                        </div>
-                        <div className="col-lg-6">
+                        </Zoom>
+                    </div>
+                    <div className="col-lg-6">
                         <Zoom>
                             <Card style={{ width: '18rem', margin: 'auto' }}>
                                 <Card.Img variant="top" src={Foto2} height="300px" />
@@ -48,9 +49,9 @@ const Team = () => {
                                 </Card.Body>
                             </Card>
                         </Zoom>
-                        </div>
                     </div>
                 </div>
+            </div>
         </div >
     )
 }

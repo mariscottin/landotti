@@ -1,15 +1,30 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Logo from '../assets/img/logo-1.png';
+import Logo from '../assets/img/logo-2.png';
 import { Link } from "react-scroll";
 
 import './MainNavbar.css';
 
-const MainNavbar = () => {
+const MainNavbar = props => {
+    const [darkNavbar, setDarkNavbar] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if(window.scrollY > 650) {
+                setDarkNavbar(true);
+            }else{
+                setDarkNavbar(false);
+            }
+        }
+
+        window.addEventListener("scroll", handleScroll);
+    }, [])
+
+    
+
     return (
-        <Navbar variant="dark" expand="md" fixed="top">
-            {/* <Navbar.Brand style={{fontFamily: 'Orbitron, sans-serif', fontSize: '28px'}}>{'<'}Land<span style={{color: '#ffD300'}}>otti</span>{'/>'}</Navbar.Brand> */}
+        <Navbar variant="dark" bg={darkNavbar && 'dark'} expand="md" fixed="top" className={props.className}>
             <Navbar.Brand><img src={Logo} alt="Rhinotech-Logo"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -26,13 +41,13 @@ const MainNavbar = () => {
                     </Link>
                     <Link
                         activeClass="active"
-                        to="teamSection"
+                        to="servicesSection"
                         spy={true}
                         smooth={true}
                         duration={700}
                         className="nav-link"
                        >
-                            Team
+                            Services
                     </Link>
                     <Link
                         activeClass="active"
@@ -46,13 +61,13 @@ const MainNavbar = () => {
                     </Link>
                     <Link
                         activeClass="active"
-                        to="portfolioSection"
+                        to="methodSection"
                         spy={true}
                         smooth={true}
                         duration={700}
                         className="nav-link"
                        >
-                            Portfolio
+                            Method
                     </Link>
                     <Link
                         activeClass="active"
