@@ -1,7 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import MainNavbar from './components/MainNavbar';
+// import MainNavbar from './components/MainNavbar';
+import MainNavigation from './components/MainNavigation';
 import Home from './components/Home';
 import Services from './components/Services';
 import Stack from './components/Stack';
@@ -15,7 +16,8 @@ function App() {
 
   return (
     <div className="App">
-      <MainNavbar />
+      {/* <MainNavbar /> */}
+      <MainNavigation />
       <Home />
       <Services />
       <Stack />
