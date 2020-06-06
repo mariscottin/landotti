@@ -6,7 +6,9 @@ import { Link } from "react-scroll";
 
 import './MainNavbar.css';
 
-const MainNavbar = props => {
+
+
+const MainNavbar = () => {
     const [darkNavbar, setDarkNavbar] = useState(false);
 
     useEffect(() => {
@@ -21,10 +23,8 @@ const MainNavbar = props => {
         window.addEventListener("scroll", handleScroll);
     }, [])
 
-    
-
     return (
-        <Navbar variant="dark" bg={darkNavbar && 'dark'} expand="md" fixed="top" className={props.className}>
+        <Navbar variant="dark" bg={darkNavbar && 'dark'} expand="md" fixed="top">
             <Navbar.Brand><img src={Logo} alt="Rhinotech-Logo"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

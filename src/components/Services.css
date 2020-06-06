@@ -15,6 +15,8 @@
 .services__container .row{
     padding-top: 50px;
     padding-bottom: 20px;
+    width: 100%;
+    margin: auto;
 }
 
 .services__container .col-lg-3{
@@ -127,5 +129,6 @@
     .services__container .card{
         width: 14rem !important;
         margin-bottom: 50px !important;
+        height: 235px;
     }
 }
