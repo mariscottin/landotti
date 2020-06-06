@@ -29,6 +29,21 @@
 
 @media(max-width: 991px){
   .navbar-brand{
-    width: 25%;
+    width: 15%;
   }
+}
+
+@media(max-width: 767px){
+  .navbar-brand{
+    width: 120px;
+    /* position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); */
+  }
+
+  /* .navbar-expand-md .navbar-collapse{
+    text-align: left;
+    background: rgb(26, 26, 26);
+  } */
 }
