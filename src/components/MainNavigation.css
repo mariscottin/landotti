@@ -50,7 +50,7 @@
 }
 
 .dark-background{
-    background: rgb(26, 26, 26);
+    background: rgba(26, 26, 26, 0.8);
 }
 
 main {

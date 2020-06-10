@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import Logo from '../assets/img/logo-1.png';
 
@@ -10,7 +10,6 @@ import './MainNavigation.css';
 
 const MainNavigation = () => {
     const [drawerIsOpen, setDrawerIsOpen] = useState(false);
-    const [darkNavbar, setDarkNavbar] = useState(false);
     
     const openDrawerHandler = () => {
         setDrawerIsOpen(true);
@@ -19,18 +18,6 @@ const MainNavigation = () => {
     const closeDrawerHandler = () => {
         setDrawerIsOpen(false);
     }
-
-    useEffect(() => {
-        const handleScroll = () => {
-            if(window.scrollY > 650) {
-                setDarkNavbar(true);
-            }else{
-                setDarkNavbar(false);
-            }
-        }
-
-        window.addEventListener("scroll", handleScroll);
-    }, [])
     
 
     return (
@@ -43,7 +30,7 @@ const MainNavigation = () => {
                 </nav>
             </SideDrawer>
 
-            <div className={`main-header ${darkNavbar && 'dark-background'}`}>
+            <div className='main-header dark-background'>
                 <button className="main-navigation__menu-btn" onClick={openDrawerHandler}>
                     <span />
                     <span />

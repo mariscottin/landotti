@@ -9,19 +9,18 @@ const Home = () => {
   return (
     <div className='home__container section' id="homeSection">
       <div className='home-title__container'>
-        <h1><Zoom>Bring your Projects and Ideas to the Internet</Zoom></h1>
-        <h4><Zoom>- Web Design and Development -</Zoom></h4>
+        <h1><Zoom>All ideas deserve a chance.</Zoom></h1>
+        <Link
+          to="servicesSection"
+          spy={true}
+          smooth={true}
+          duration={700}
+          className='home-get-started__container'
+          title="Get Started!">
+          <FontAwesomeIcon icon={faChevronDown} color="ffffff" className="home-get-started__icon" />
+        </Link>
       </div>
 
-      <Link
-        to="servicesSection"
-        spy={true}
-        smooth={true}
-        duration={700} 
-        className='home-get-started__container' 
-        title="Get Started!">
-        <FontAwesomeIcon icon={faChevronDown} color="ffffff" className="home-get-started__icon" />
-      </Link>
     </div>
   )
 }
