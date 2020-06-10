@@ -6,7 +6,7 @@ import HTML from '../assets/img/html-logo.png';
 import CSS from '../assets/img/css-logo.png';
 import REACT from '../assets/img/react-logo.png';
 import JS from '../assets/img/js-logo.png';
-import JQUERY from '../assets/img/jquery-logo.png';
+import JQUERY from '../assets/img/jquery-logo2.png';
 import NODE from '../assets/img/node-logo.png';
 import SQL from '../assets/img/sql-logo.png';
 import MONGO from '../assets/img/mongo-logo.png';

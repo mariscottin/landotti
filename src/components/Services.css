@@ -33,6 +33,7 @@
     cursor: pointer;
     background: transparent;
     margin: auto;
+    margin-bottom: 50px !important;
 }
 
 .services__container .card-img-top{
@@ -122,13 +123,18 @@
     }
 }
 
-@media(max-width: 991px) {
+@media(min-width: 991px) {
     .services-cards__container{
         padding-top: 0;
     }
     .services__container .card{
         width: 14rem !important;
-        margin-bottom: 50px !important;
-        height: 235px;
+        
+    }
+}
+
+@media(min-width: 1110px) {
+    .services__container .card{
+        width: 15rem !important;
     }
 }
