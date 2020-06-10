@@ -10,10 +10,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.section {
-  min-height: 110vh;
-}
-
 .section-title {
   text-align: center;
   font-family: 'Orbitron', sans-serif;

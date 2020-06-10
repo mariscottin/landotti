@@ -9,19 +9,6 @@ const NavLinks = props => {
             <li>
                 <Link
                     activeClass="active"
-                    to="homeSection"
-                    spy={true}
-                    smooth={true}
-                    duration={700}
-                    className="nav-link"
-                    onClick={props.closeDrawerHandler}
-                >
-                    Home
-                    </Link>
-            </li>
-            <li>
-                <Link
-                    activeClass="active"
                     to="servicesSection"
                     spy={true}
                     smooth={true}
