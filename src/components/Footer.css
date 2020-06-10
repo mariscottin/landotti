@@ -1,7 +1,7 @@
 .footer{
-    color: #ffffff;
+    color: white ;
     height: 20vh;
-    background-color: #343a40;
+    background-color: blue !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
