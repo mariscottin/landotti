@@ -2,7 +2,10 @@
     position: relative;
     background-color: #ffffff;
     min-height: 80vh;
-    padding: 2rem 1rem;
+}
+
+.method-title{
+    padding-top: 90px;
 }
 
 .carousel{

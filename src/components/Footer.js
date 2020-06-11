@@ -43,7 +43,7 @@ const Footer = () => {
                     <ul>
                         <li><img src={Spain} alt="Spain" className="spain"/></li>
                         <li><img src={UK} alt="Spain" className="Uk"/></li>
-                        <li><i class="fab fa-twitter-square"></i></li>
+                        <li><i className="fab fa-twitter-square"></i></li>
                     </ul>
                 </div>
             </div>
