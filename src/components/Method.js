@@ -16,7 +16,7 @@ const Method = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <h1><Zoom>It all starts with a spark and is followed by a good method</Zoom></h1>
+                        <h1 className="method-title"><Zoom>It all starts with a spark and is followed by a good method</Zoom></h1>
                         <Zoom>
                             <Carousel activeIndex={index} onSelect={handleSelect} fade={true} indicators={false}>
                                 <Carousel.Item>

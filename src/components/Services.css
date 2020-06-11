@@ -32,9 +32,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.justifytext {
-   
-}
 
 @media(max-width: 991px){
     .services-col-2{

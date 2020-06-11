@@ -1,7 +1,7 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import CodeImg from '../assets/img/code.png';
-import StackImg from '../assets/img/stack.gif';
+// import StackImg from '../assets/img/stack.gif';
 import './Stack.css';
 
 const Stack = () => {
@@ -15,7 +15,7 @@ const Stack = () => {
                         </div>
                         <div className="col-lg-6 stack-col-2">
                             <h1>Here to code {`</>`}</h1>
-                            <img src={StackImg} alt="stack img" className="stackicon" />
+                            {/* <img src={StackImg} alt="stack img" className="stackicon" /> */}
                             <p>
                                 Full stack development team focused on results, teamwork and reliability. We use the lastest technology in software development for the best user experience. 
                             </p>
