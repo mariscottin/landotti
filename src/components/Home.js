@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
-import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 import './Home.css';
 
 const Home = () => {
   return (
     <div className='home__container section' id="homeSection">
       <div className='home-title__container'>
-        <h1><Zoom>All ideas deserve a chance.</Zoom></h1>
+        <h1><Fade>All ideas deserve a chance.</Fade></h1>
         <Link
           to="introSection"
           spy={true}

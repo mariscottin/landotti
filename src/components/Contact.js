@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 import emailjs from 'emailjs-com';
 import ReactLoading from 'react-loading';
 import Brand from '../assets/img/rhino-brand.png'
@@ -35,11 +35,11 @@ const Contact = () => {
     return (
         <div className="contact__container" id="contactSection">
             <div className="contact__title">
-                <h1><Zoom>Get Started</Zoom></h1>
-                <h3><Zoom>Tell us your idea and we'll help you get it up and running online</Zoom></h3>
+                <h1><Fade>Get Started</Fade></h1>
+                <h3><Fade>Tell us your idea and we'll help you get it up and running online</Fade></h3>
             </div>
             <div className="contact-dark-background"></div>
-            <Zoom>
+            <Fade>
                 <div className="contact-form">
                     {!messageSent &&
                         <form onSubmit={submitEmailHandler}>
@@ -76,7 +76,7 @@ const Contact = () => {
                         </div>
                     }
                 </div>
-            </Zoom>
+            </Fade>
         </div>
 
     )

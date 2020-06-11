@@ -1,13 +1,10 @@
 .stack__container{
     height: 60vh;
     padding-bottom: 40px;
-    max-height: 500px;
     background: #5892da;
     position: relative;
-}
-
-.stack-col-2{
-    padding: 5rem 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .code-img{
@@ -24,6 +21,8 @@
 @media(max-width: 991px){
     .stack__container{
         height: auto;
+        padding-top: 90px;
+        padding-bottom: 60px;
     }
 
     .stack-col-1{

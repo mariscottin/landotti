@@ -6,6 +6,7 @@ import './Navlinks.css';
 const NavLinks = props => {
     return (
         <ul className="nav-links">
+            <li className="close-side-drawer">X</li>
             <li>
                 <Link
                     activeClass="active"

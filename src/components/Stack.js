@@ -1,5 +1,5 @@
 import React from 'react';
-import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 import CodeImg from '../assets/img/code.png';
 // import StackImg from '../assets/img/stack.gif';
 import './Stack.css';
@@ -8,7 +8,7 @@ const Stack = () => {
     return (
         <div className="stack__container section" id="stackSection">
             <div className="container">
-                <Zoom>
+                <Fade>
                     <div className="row align-items-center">
                         <div className="col-lg-6 stack-col-1">
                             <img src={CodeImg} alt="Here to Code" className="code-img"/>
@@ -21,7 +21,7 @@ const Stack = () => {
                             </p>
                         </div>
                     </div>
-                </Zoom>
+                </Fade>
             </div>
         </div>
     )
