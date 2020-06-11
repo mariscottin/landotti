@@ -1,16 +1,72 @@
-.footer{
-    color: #ffffff;
-    height: 20vh;
+.foot {
     background-color: #343a40;
+}
+
+.footer{
+    color: white;
+    width:100%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    padding: 25px 0 0 0;
+}   
+
+.footer .footsquare {
+    width: 30%;
+    margin: 5%;
 }
 
 .footer .brand {
-    width: 220px;
+    width: 200px;
+    height: auto;
+    align-items: left;
 }
-.footer .div{
-    font-family: 'Orbitron, sans-serif' !important;
+
+.footer .footsquare h1 {
+    font-size: 16px;
+}
+
+.footer .footsquare li {
+    font-size: 12px;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.footer .footsquare ul {
+    padding: 0;
+}
+
+.foot .right {
+    color: white;
+    padding-right: 5%;
+    padding-bottom: 0.5%;
+    font-size: 13px;
+    width: 100%;
+    text-align: right;
+}
+
+.foot .footer .footlogo {
+    align-items: center;
+}
+
+.foot .spain {
+    width: 17px;
+    height: 17px;
+}
+
+.foot .Uk {
+    width: 16px;
+    height: 16px;
+}
+
+@media (max-width:767px) {
+    .footer {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .foot .logosep {
+        padding-left: 0;
+    }
 }
