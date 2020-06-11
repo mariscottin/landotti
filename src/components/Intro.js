@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import Zoom from 'react-reveal/Zoom';
-
+import Button from './Button';
 import './Intro.css';
 
 const Intro = () => {
-    return(
+    return (
         <div className="intro-section__container" id="introSection">
             <div className="container">
                 <Zoom>
@@ -14,8 +15,19 @@ const Intro = () => {
                         </div>
                         <div className="col-lg-6">
                             <p>
-                                Veniam ullamco deserunt dolor anim cupidatat labore et ea adipisicing nostrud elit cupidatat. 
-                                Tempor laboris sunt exercitation ad ipsum velit ipsum quis. Labore dolor dolor ut nulla fugiat mollit.
+                                We design and develop websites to bring those ideas and businesses to the online world.
+                                Create a fully responsive, user friendly, modern, and powerful website with us!
+                                <br />
+                                <br />
+                                    <Link
+                                        to="contactSection"
+                                        spy={true}
+                                        smooth={true}
+                                        duration={700}
+                                        >
+                                        <Button className="transparent-btn">Get Started!</Button>
+                                    </Link>
+                                
                             </p>
                         </div>
                     </div>

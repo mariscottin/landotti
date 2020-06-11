@@ -57,7 +57,7 @@ const Contact = () => {
                                 </div>
                                 }
                                 {!isLoading &&
-                                    <Button type="submit">Submit</Button>
+                                    <Button type="submit" className="custom-button">Submit</Button>
                                 }
                             </div>
                         </form>
