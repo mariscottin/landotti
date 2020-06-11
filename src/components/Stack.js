@@ -1,84 +1,27 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
-import Particles from 'react-particles-js';
-import HTML from '../assets/img/html-logo.png';
-import CSS from '../assets/img/css-logo.png';
-import REACT from '../assets/img/react-logo.png';
-import JS from '../assets/img/js-logo.png';
-import JQUERY from '../assets/img/jquery-logo2.png';
-import NODE from '../assets/img/node-logo.png';
-import SQL from '../assets/img/sql-logo.png';
-import MONGO from '../assets/img/mongo-logo.png';
-
+import CodeImg from '../assets/img/code.png'
 import './Stack.css';
 
 const Stack = () => {
     return (
         <div className="stack__container section" id="stackSection">
-            <Particles 
-            params={{
-                particles: {
-                    number: {
-                        value: 80
-                    },
-                    size: {
-                        value: 3
-                    }
-                }                
-            }}
-            className="particles"
-            />
-            <h1 className="section-title">
-                <Fade>Stack</Fade>
-            </h1>
-            <div>
-                <div className="container">
-                    <div className="row">
-                        <Zoom>
-                            <div className="col-lg-3">
-                                <img src={HTML} alt="HTML5-Logo" className="stack-logo" title="HTML5" />
-                            </div>
-                        </Zoom>
-                        <Zoom>
-                            <div className="col-lg-3">
-                                <img src={CSS} alt="CSS3-Logo" className="stack-logo" title="CSS3" />
-                            </div>
-                        </Zoom>
-                        <Zoom>
-                            <div className="col-lg-3">
-                                <img src={JS} alt="Javascript-Logo" className="stack-logo" title="Javascript" />
-                            </div>
-                        </Zoom>
-                        <Zoom>
-                            <div className="col-lg-3">
-                                <img src={JQUERY} alt="JQuery-Logo" className="stack-logo" title="JQuery" />
-                            </div>
-                        </Zoom>
+            <div className="container">
+                <Zoom>
+                    <div className="row align-items-center">
+                        <div className="col-lg-6 stack-col-1">
+                            <img src={CodeImg} alt="Here to Code" className="code-img"/>
+                        </div>
+                        <div className="col-lg-6 stack-col-2">
+                            <h1>Here to code {`</>`}</h1>
+                            <p>
+                                Fugiat nostrud ipsum ad excepteur quis eu enim elit labore. 
+                                Enim elit dolore reprehenderit aute enim pariatur incididunt ex mollit aute est magna proident. 
+                                Amet labore excepteur officia consectetur aute reprehenderit mollit laborum. Pariatur pariatur.
+                            </p>
+                        </div>
                     </div>
-                    <div className="row">
-                        <Zoom>
-                            <div className="col-lg-3">
-                                <img src={REACT} alt="React-Logo" className="stack-logo" title="React js" />
-                            </div>
-                        </Zoom>
-                        <Zoom>
-                            <div className="col-lg-3">
-                                <img src={NODE} alt="Nodejs-Logo" className="stack-logo" title="Node js" />
-                            </div>
-                        </Zoom>
-                        <Zoom>
-                            <div className="col-lg-3">
-                                <img src={SQL} alt="SQL-Logo" className="stack-logo" title="SQL" />
-                            </div>
-                        </Zoom>
-                        <Zoom>
-                            <div className="col-lg-3">
-                                <img src={MONGO} alt="MongoDb-Logo" className="stack-logo" title="MongoDb" />
-                            </div>
-                        </Zoom>
-                    </div>
-                </div>
+                </Zoom>
             </div>
         </div>
     )

@@ -30,7 +30,7 @@ const MainNavigation = () => {
                 </nav>
             </SideDrawer>
 
-            <div className='main-header dark-background'>
+            <div className='main-header'>
                 <button className="main-navigation__menu-btn" onClick={openDrawerHandler}>
                     <span />
                     <span />
