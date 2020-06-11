@@ -2,8 +2,6 @@ import React from 'react';
 import Brand from '../assets/img/logo-3.gif';
 import Spain from '../assets/img/spainlogo.png';
 import UK from '../assets/img/uklogo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  } from '@fortawesome/free-solid-svg-icons'
 import './Footer.css';
 
 const Footer = () => {

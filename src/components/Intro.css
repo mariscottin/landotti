@@ -1,14 +1,15 @@
 .intro-section__container{
     height: 50vh;
+    display: flex;
+    align-items: center;
 }
 
-.intro-row{
-    padding: 4rem 1rem;
-}
 
 @media(max-width: 991px){
     .intro-section__container{
        height: auto;
+       padding-top: 90px;
+       padding-bottom: 60px;
     }
 
     .intro-section__container p{

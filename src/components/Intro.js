@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 import Button from './Button';
 import './Intro.css';
 
 const Intro = () => {
     return (
         <div className="intro-section__container" id="introSection">
-            <div className="container">
-                <Zoom>
+            <div className="container intro-container">
+                <Fade>
                     <div className="row intro-row align-items-center">
                         <div className="col-lg-6">
                             <h1>Bring your projects, we'll send them to the online world</h1>
@@ -25,13 +25,13 @@ const Intro = () => {
                                         smooth={true}
                                         duration={700}
                                         >
-                                        <Button className="transparent-btn">Get Started!</Button>
+                                        <Button className="transparent-btn">Get Started</Button>
                                     </Link>
                                 
                             </p>
                         </div>
                     </div>
-                </Zoom>
+                </Fade>
             </div>
         </div>
     )
