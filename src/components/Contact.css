@@ -8,7 +8,6 @@
 .contact__title{
     width: 40%;
     margin: auto;
-    padding-top: 40px;
 }
 
 .contact-form{
@@ -97,7 +96,7 @@
     }
     .contact__title{
         width: 80%;
-        padding-top: 40px;
+        padding-top: 90px;
     }
 }
 
