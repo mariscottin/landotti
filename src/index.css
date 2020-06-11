@@ -41,6 +41,11 @@ code {
   transition: all 200ms;
 }
 
+.row{
+  width: 100%;
+  margin: auto !important;
+}
+
 @media(max-width: 676px) {
   .section-title {
     font-size: 7vw;

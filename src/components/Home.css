@@ -8,6 +8,7 @@
     background-size: cover;
     background-position: bottom;
     height: 100vh;
+    max-height: 700px;
 }
 
 .home-title__container{

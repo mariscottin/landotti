@@ -30,8 +30,9 @@
 .nav-links a {
     color: #fff;
     text-decoration: none;
-    padding: 0.5rem 0;
 }
+
+
 
 .nav-links a:hover, .nav-links a:active, .nav-links a.active {
     font-weight: bold;
@@ -54,12 +55,18 @@
     .nav-links a {
       color: #fff;
       text-decoration: none;
+      padding: 0.5rem 1.5rem !important;
     }
 
     .nav-links a:hover{
         cursor: pointer;
         color: #fff;
-        font-weight: normal;
-        color: rgb(214, 214, 214);
+        font-weight: bolder;
+    }
+
+    .get-started-navlink{
+        background: rgba(255, 255, 255, 0.288);
+        border-radius: 8px;
+        padding: 5px 10px !important;
     }
   }

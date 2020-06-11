@@ -1,0 +1,18 @@
+.intro-section__container{
+    height: 50vh;
+    max-height: 500px;
+}
+
+.intro-row{
+    padding: 4rem 1rem;
+}
+
+@media(max-width: 991px){
+    .intro-section__container{
+       height: auto;
+    }
+
+    .intro-section__container p{
+        padding-top: 20px;
+    }
+}

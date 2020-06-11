@@ -11,7 +11,7 @@ const Home = () => {
       <div className='home-title__container'>
         <h1><Zoom>All ideas deserve a chance.</Zoom></h1>
         <Link
-          to="servicesSection"
+          to="introSection"
           spy={true}
           smooth={true}
           duration={700}

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import emailjs from 'emailjs-com';
 import ReactLoading from 'react-loading';
@@ -34,21 +33,22 @@ const Contact = () => {
 
 
     return (
-        <div className="contact__container section" id="contactSection">
-            <h1 className="section-title"><Fade>Contact Us</Fade></h1>
+        <div className="contact__container" id="contactSection">
+            <div className="contact__title">
+                <h1><Zoom>Get Started</Zoom></h1>
+                <h3><Zoom>Tell us your idea and we'll help you get it up and running online</Zoom></h3>
+            </div>
+            <div className="contact-dark-background"></div>
             <Zoom>
-                <div className="container">
-
+                <div className="contact-form">
                     {!messageSent &&
                         <form onSubmit={submitEmailHandler}>
                             <input type="hidden" name="email_number" value={Math.random() * 100000 | 0} />
                             <div className="form-group">
-                                <label htmlFor="emailAddress">Your Email Address:</label>
-                                <input type="email" placeholder="Enter your email address..." className="form-control" id="emailAddress" name="user_email" disabled={isLoading ? true : false} required/>
+                                <input type="email" placeholder="your@email.com" className="form-control" id="emailAddress" name="user_email" disabled={isLoading ? true : false} required/>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="emailInput">Message:</label>
-                                <textarea className="form-control" id="emailInput" placeholder="Enter your message, we will be replying soon!" name="message" disabled={isLoading ? true : false} required></textarea>
+                                <textarea className="form-control" id="emailInput" placeholder="Tell us about your idea and what you need!" name="message" disabled={isLoading ? true : false} required></textarea>
                             </div>
                             <div className="submit-form">
                                 {isLoading &&

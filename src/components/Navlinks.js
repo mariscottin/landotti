@@ -52,10 +52,10 @@ const NavLinks = props => {
                     spy={true}
                     smooth={true}
                     duration={700}
-                    className="nav-link"
+                    className="nav-link get-started-navlink"
                     onClick={props.closeDrawerHandler}
                 >
-                    Contact Us
+                    Get Started
                     </Link>
             </li>
 

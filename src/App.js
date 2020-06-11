@@ -1,9 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import MainNavbar from './components/MainNavbar';
 import MainNavigation from './components/MainNavigation';
 import Home from './components/Home';
+import Intro from './components/Intro';
 import Services from './components/Services';
 import Stack from './components/Stack';
 import Method from './components/Method';
@@ -16,9 +16,9 @@ function App() {
 
   return (
     <div className="App">
-      {/* <MainNavbar /> */}
       <MainNavigation />
       <Home />
+      <Intro />
       <Services />
       <Stack />
       <Method />
