@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import Logo from '../assets/img/logo-1.png';
+import Logo from '../assets/img/logo-3.gif';
 
 import Navlinks from './Navlinks';
 import BackDrop from './Backdrop';
